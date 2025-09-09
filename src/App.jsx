@@ -6,6 +6,7 @@ import Hero from "./components/hero";
 import More from "./components/more";
 import Watch from "./components/watch";
 import Webflow from "./components/webflow";
+import Available from "./components/available";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Hero />
         <Watch />
         <Webflow />
+        <Available />
         <More />
       </main>
       <Footer />
