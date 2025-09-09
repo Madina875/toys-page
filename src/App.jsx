@@ -5,6 +5,7 @@ import SubHeader from "./components/sub-header";
 import Hero from "./components/hero";
 import More from "./components/more";
 import Watch from "./components/watch";
+import Webflow from "./components/webflow";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <main>
         <Hero />
         <Watch />
+        <Webflow />
         <More />
       </main>
       <Footer />
