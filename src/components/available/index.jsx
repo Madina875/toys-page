@@ -13,7 +13,7 @@ const Available = () => {
             it must appeal to, entice, and convince consumers to take action.
             There is no magic formula to write perfect ad copy
           </p>
-          <button className="text-white bg-[#A5C926] rounded-[24px] mt-[30px] h-[40px] w-[150px]">
+          <button className="a-btns text-white bg-[#A5C926] rounded-[24px] mt-[30px] h-[40px] w-[150px]">
             get it now!
           </button>
         </div>

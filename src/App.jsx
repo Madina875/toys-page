@@ -9,6 +9,8 @@ import Webflow from "./components/webflow";
 import Available from "./components/available";
 import Subscribe from "./components/subscribe";
 import Wooden from "./components/wooden";
+import Animals from "./components/animals";
+import Shop from "./components/shop";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <Shop />
+        <Animals />
         <Wooden />
         <Watch />
         <Webflow />

@@ -1,13 +1,13 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
-import flow from "../../assets/flow.png";
+import dog from "../../assets/IMAGE (15).png";
 
-const Wooden = () => {
+const Animals = () => {
   return (
-    <section className="mt-[130px]">
+    <section className="mt-[100px]">
       <div className="container flex flex-col">
         <div className="flex justify-between place-items-center">
-          <h2 className="text-3xl">Wooden Toys</h2>
+          <h2 className="text-3xl">Animals Toys</h2>
           <div>
             <p className="flex">
               See All Toys <ArrowRight />
@@ -18,28 +18,28 @@ const Wooden = () => {
         <hr className="my-[50px] border border-gray-200" />
         <div className="grid grid-cols-4 gap-[20px]">
           <div className="flex border border-gray-200 h-[400px] rounded-[16px] w-[350px] flex-col gap-[20px] items-center justify-center">
-            <img src={flow} alt="" />
+            <img src={dog} alt="" />
             <h3>Happy Flower</h3>
             <button className=" bg-[#A5C926] h-[40px] w-[140px] rounded-[20px] text-white">
               $38.00 USD
             </button>
           </div>{" "}
           <div className="flex border border-gray-200 h-[400px] rounded-[16px] w-[350px] flex-col gap-[20px] items-center justify-center">
-            <img src={flow} alt="" />
+            <img src={dog} alt="" />
             <h3>Happy Flower</h3>
             <button className=" bg-[#A5C926] h-[40px] w-[140px] rounded-[20px] text-white">
               $38.00 USD
             </button>
           </div>{" "}
           <div className="flex border border-gray-200 h-[400px] rounded-[16px] w-[350px] flex-col gap-[20px] items-center justify-center">
-            <img src={flow} alt="" />
+            <img src={dog} alt="" />
             <h3>Happy Flower</h3>
             <button className=" bg-[#A5C926] h-[40px] w-[140px] rounded-[20px] text-white">
               $38.00 USD
             </button>
           </div>{" "}
           <div className="flex border border-gray-200 h-[400px] rounded-[16px] w-[350px] flex-col gap-[20px] items-center justify-center">
-            <img src={flow} alt="" />
+            <img src={dog} alt="" />
             <h3>Happy Flower</h3>
             <button className=" bg-[#A5C926] h-[40px] w-[140px] rounded-[20px] text-white">
               $38.00 USD
@@ -51,4 +51,4 @@ const Wooden = () => {
   );
 };
 
-export default Wooden;
+export default Animals;
