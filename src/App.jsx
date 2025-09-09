@@ -7,6 +7,7 @@ import More from "./components/more";
 import Watch from "./components/watch";
 import Webflow from "./components/webflow";
 import Available from "./components/available";
+import Subscribe from "./components/subscribe";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Watch />
         <Webflow />
         <Available />
+        <Subscribe />
         <More />
       </main>
       <Footer />
