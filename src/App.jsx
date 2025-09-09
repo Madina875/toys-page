@@ -4,6 +4,7 @@ import Footer from "./components/footer";
 import SubHeader from "./components/sub-header";
 import Hero from "./components/hero";
 import More from "./components/more";
+import Watch from "./components/watch";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Header />
       <main>
         <Hero />
+        <Watch />
         <More />
       </main>
       <Footer />
