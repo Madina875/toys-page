@@ -9,7 +9,7 @@ const App = () => {
     <>
       <SubHeader />
       <Header />
-      <main>
+      <main className="h-[1000px]">
         <Hero />
       </main>
       <Footer />
